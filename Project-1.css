@@ -1,0 +1,35 @@
+body{
+    margin-top:50px;
+}
+.container{
+    width:1000px;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.price{
+    width: 40px;
+    margin:10px;
+    padding:20px;
+    background-color: rgb(72, 230, 222);
+
+}
+.txt{
+    width:50px;
+    margin:10px;
+    padding:20px;
+    background-color: rgb(103, 197, 192);
+
+}
+@media only screen and (max-width:667px) {
+    .box{
+        display:block;
+    }
+}
+@media only screen and (max-width:440px) {
+    .box{
+        display:block;
+    }
+}
